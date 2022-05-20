@@ -8,6 +8,7 @@ import * as ReactQuery from "react-query";
 import * as Api from "api";
 import CommentImage from "assets/Icon awesome-comment@2x 2.png";
 import * as ViewFoodTrip from "app/viewfoodtrip";
+import ReactPlayer from "react-player";
 
 const ImageContainer = Mui.styled(Mui.Box)({
   objectFit: "contain",
@@ -114,7 +115,7 @@ export const LiveSessions = () => {
 };
 
 import * as Hooks from "hooks";
-import ReactPlayer from "react-player";
+
 import * as NextRouter from "next/router";
 
 const Heading = Mui.styled(Mui.Typography)({
