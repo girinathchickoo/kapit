@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36">
+  <g id="Bazaar_City" data-name="Bazaar City" transform="translate(6.219 9.621)">
+    <rect id="Rectangle_469" data-name="Rectangle 469" width="36" height="36" transform="translate(-6.219 -9.621)" fill="#fff" opacity="0"/>
+    <g id="Group_2128" data-name="Group 2128" transform="translate(1 -2)">
+      <circle id="Ellipse_19" data-name="Ellipse 19" cx="9.5" cy="9.5" r="9.5" transform="translate(-5.219 -5.621)" fill="#fdb6da"/>
+      <g id="Group_189" data-name="Group 189">
+        <path id="Path_485" data-name="Path 485" d="M99.237,322.332a3.284,3.284,0,1,0,3.283,3.284A3.284,3.284,0,0,0,99.237,322.332Zm0,5.36a2.076,2.076,0,1,1,2.076-2.076A2.076,2.076,0,0,1,99.237,327.692Zm0,0" transform="translate(-90.165 -302.521)" fill="#333" stroke="#333" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.3"/>
+        <path id="Path_486" data-name="Path 486" d="M26.969,6.032H5.656L5.221,3.6A3.628,3.628,0,0,0,2.282.666L.706.388A.6.6,0,1,0,.5,1.577l1.581.278A2.414,2.414,0,0,1,4.032,3.81L6.169,15.864a3.012,3.012,0,0,0,2.97,2.493H21.814a3.01,3.01,0,0,0,2.891-2.143l2.837-9.4a.631.631,0,0,0-.091-.537A.611.611,0,0,0,26.969,6.032Zm-3.416,9.826a1.8,1.8,0,0,1-1.732,1.286H9.145a1.8,1.8,0,0,1-1.781-1.5L5.873,7.233H26.16Zm0,0" fill="#333" stroke="#333" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.3"/>
+        <path id="Path_487" data-name="Path 487" d="M309.237,322.332a3.284,3.284,0,1,0,3.283,3.284A3.284,3.284,0,0,0,309.237,322.332Zm0,5.36a2.076,2.076,0,1,1,2.076-2.076A2.076,2.076,0,0,1,309.237,327.692Zm0,0" transform="translate(-287.49 -302.521)" fill="#333" stroke="#333" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.3"/>
+      </g>
+    </g>
+  </g>
+</svg>

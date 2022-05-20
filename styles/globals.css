@@ -1,0 +1,108 @@
+@font-face {
+  font-family: "Raleway-bold";
+  src: url("../assets/fonts/Raleway-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Raleway-semibold";
+  src: url("../assets/fonts/Raleway-SemiBold.ttf");
+}
+
+@font-face {
+  font-family: "Raleway-medium";
+  src: url("../assets/fonts/Raleway-Medium.ttf");
+}
+
+@font-face {
+  font-family: "Haborosans-normal";
+  src: url("../assets/fonts/HaboroSans-NormMedium.otf");
+}
+
+@font-face {
+  font-family: "Haborosans-regular";
+  src: url("../assets/fonts/HaboroSans-NormRegular.otf");
+}
+
+@font-face {
+  font-family: "callunaSans- Semibold";
+  src: url("../assets/fonts/Calluna/callunaSans- Semibold.ttf");
+}
+
+@font-face {
+  font-family: "CallunaSans-Bold";
+  src: url("../assets/fonts/Calluna/CallunaSans-Bold.otf");
+}
+
+@font-face {
+  font-family: "CallunaSans-Regular";
+  src: url("../assets/fonts/Calluna/CallunaSans-Regular.otf");
+}
+
+@font-face {
+  font-family: "CallunaTitle-Bold";
+  src: url("../assets/fonts/Calluna/title/Calluna-Bold.otf");
+}
+
+@font-face {
+  font-family: "CallunaTitle-Semibold";
+  src: url("../assets/fonts/Calluna/title/Calluna-Semibold.ttf");
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0.1);
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0.2);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 0, 0, 0.4);
+}
+
+::-webkit-scrollbar-thumb:active {
+  background: rgba(0, 0, 0, 0.9);
+}
+
+.wrapper {
+  max-height: auto;
+  display: flex;
+  overflow-x: auto;
+}
+
+.wrapper::-webkit-scrollbar {
+  display: none;
+}
+
+.wrapper .item {
+  min-width: 15rem;
+  height: 100%;
+  text-align: center;
+  margin-right: 1rem;
+  position: relative;
+  cursor: pointer;
+}
