@@ -67,7 +67,7 @@ export const LiveSessions = () => {
         <Mui.Grid container spacing={2}>
           {Array(4).fill(
             <Mui.Grid item xs={12} lg={4} spacing={2}>
-              <ImageContainer onClick={handleModel} sx={{ height: "10rem" }}>
+              {/* <ImageContainer onClick={handleModel} sx={{ height: "10rem" }}>
                 <ReactPlayer
                   width={"100%"}
                   config={{
@@ -79,7 +79,7 @@ export const LiveSessions = () => {
                 <TextOverLay sx={{ margin: "0px !important" }}>
                   <Mui.IconButton onClick={handleModel}> </Mui.IconButton>
                 </TextOverLay>
-              </ImageContainer>
+              </ImageContainer> */}
               <Mui.Stack direction={"row"} justifyContent="space-between">
                 <Mui.Stack
                   direction={"row"}
@@ -239,7 +239,7 @@ export const ViewVideos = ({ open, onclose, item }: Props) => {
                   </StyledTypography>
                 </Mui.Box>
 
-                <PlayerContainer>
+                {/* <PlayerContainer>
                   <ReactPlayer
                     width={"100%"}
                     height={"100%"}
@@ -263,7 +263,7 @@ export const ViewVideos = ({ open, onclose, item }: Props) => {
                   )}
                 </Mui.IconButton>
               </PlayButton> */}
-                </PlayerContainer>
+                </PlayerContainer> */}
               </Mui.Box>
             </Mui.Stack>
           </Mui.Grid>

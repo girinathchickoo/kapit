@@ -73,7 +73,7 @@ export const ViewVideos = ({ open, onclose, item }: Props) => {
             <MuiIcons.Close />
           </Mui.IconButton>
           <Mui.Stack spacing={2}>
-            <PlayerContainer>
+            {/* <PlayerContainer>
               <ReactPlayer
                 width={"100%"}
                 config={{
@@ -95,7 +95,7 @@ export const ViewVideos = ({ open, onclose, item }: Props) => {
                   )}
                 </Mui.IconButton>
               </PlayButton>
-            </PlayerContainer>
+            </PlayerContainer> */}
             <Heading>{item?.title}</Heading>
             <Description>
               {item?.post_description}
