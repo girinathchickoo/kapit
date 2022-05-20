@@ -113,7 +113,7 @@ export const ProductAndService = (
                 Serivces
               </Button>
             </Mui.Stack>
-            <FieldArray name="products" validateOnChange>
+            {/* <FieldArray name="products" validateOnChange>
               {({ push, remove }) => (
                 <>
                   {values.products?.map((item, index) => (
@@ -212,7 +212,7 @@ export const ProductAndService = (
                   </AddmoreButton>
                 </>
               )}
-            </FieldArray>
+            </FieldArray> */}
           </Mui.Stack>
         </Mui.Grid>
         <Mui.Grid item xs={12} md={6}>
