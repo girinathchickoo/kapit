@@ -210,7 +210,7 @@ export const EditDetails = ({ setOpen, refetch, open }: Props) => {
               value1="Products"
               value2="Services"
             />
-            <Product_Service />
+            {/* <Product_Service /> */}
           </Mui.Stack>
           <Mui.Stack
             component={Mui.Grid}
