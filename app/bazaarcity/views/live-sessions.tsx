@@ -251,7 +251,7 @@ export const ViewVideos = ({ open, onclose, item }: Props) => {
                     // url={item?.video_url}
                     controls
                   />
-                  {/* <PlayButton className="playandpause">
+                   <PlayButton className="playandpause">
                 <Mui.IconButton
                   onClick={play}
                   sx={{ color: "white", border: "2px solid white" }}
@@ -262,7 +262,7 @@ export const ViewVideos = ({ open, onclose, item }: Props) => {
                     <MuiIcons.Pause sx={{ fontSize: "2rem" }} />
                   )}
                 </Mui.IconButton>
-              </PlayButton> */}
+              </PlayButton> 
                 </PlayerContainer> */}
               </Mui.Box>
             </Mui.Stack>
