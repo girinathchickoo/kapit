@@ -115,7 +115,7 @@ export const Details = ({
                 }}
               />
             </Mui.Box>
-            <Paragraph>
+            {/* <Paragraph>
               {details?.description && (
                 <Editor
                   defaultValue={details?.description as string}
@@ -123,7 +123,7 @@ export const Details = ({
                   theme=""
                 />
               )}
-            </Paragraph>
+            </Paragraph> */}
             <LikeCommentsShare refresh={refreshDetails} details={details} />
             <Mui.Divider />
             <Views.Comments />
